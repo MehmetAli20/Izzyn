@@ -1,0 +1,32 @@
+﻿@using EntityLayer.DTOs.StaffDTOs
+@model GetStaffDto
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>You can navigate to the travels page, staff list or home page down below</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <!-- Button 1 -->
+            @*<a href="https://localhost:7055/travel/addtravel" class="btn btn-primary m-2">
+                Travel
+            </a>*@
+            
+            <!-- Button 2 -->
+            <a href="https://localhost:7055/auth/login" class="btn btn-primary m-2">
+                Login
+            </a>
+
+            <!-- Button 3 -->
+            @*<a href="https://localhost:7055/auth/register" class="btn btn-success m-2">
+                Register  *@ 
+            </a>
+        </div>
+    </div>
+</div>
